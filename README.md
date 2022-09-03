@@ -32,14 +32,14 @@ ng  g c standAloneComponents/card –standalone
 ```
 
 Add index.ts in the folder standAloneComponents : 
-```
+```javascript
 export * from './card/card.component' ;
 export * from './list/list.component' ;
 ```
 
 Add routing to those components in app.module.ts :
 
-```
+```javascript
 const routes:Route[]=[
   {path:'card',component:CardComponent},
   {path:'list',component:ListComponent},
@@ -55,7 +55,7 @@ ng add @angular/material
 ```
 
 Add MatCardModule to card.coponent.ts
-```
+```javascript
 import {MatCardModule} from '@angular/material/card';
 
 imports: [CommonModule,MatCardModule],
