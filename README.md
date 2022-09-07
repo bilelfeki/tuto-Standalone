@@ -23,12 +23,12 @@ ng serve
 
 Create the first standalone component in this package : 
 ```
-ng  g c standAloneComponents/list  –standalone
+ng  g c standAloneComponents/list  –-standalone
 ```
 
 create the second standalone component 
 ```
-ng  g c standAloneComponents/card –standalone 
+ng  g c standAloneComponents/card –-standalone 
 ```
 
 Add index.ts in the folder standAloneComponents : 
